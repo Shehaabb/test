@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: white;
+    z-index: 1;
+}
+
+.overlay-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.overlay-text p {
+    font-size: 24px;
+}
+
+.donation-form {
+    margin-top: -10%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.donation-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.donation-form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.donation-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.donation-form button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.donation-form button:hover {
+    background-color: #c0392b;
+}
